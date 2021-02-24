@@ -8,5 +8,7 @@
     "psr-4": {
       "DNCore\\": "v1/"
     }
-  }
+  },
+  "license": "MIT"
+
 }
