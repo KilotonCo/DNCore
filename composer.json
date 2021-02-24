@@ -1,6 +1,6 @@
 {
   "name": "kilotonco/dncore",
-  "description": "dn",
+  "description": "Dungeon & Fighter Online API for PHP",
   "require": {
     "php": ">=7.1"
   },
