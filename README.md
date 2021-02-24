@@ -8,15 +8,28 @@
 | 버전 | 1.0.1 |
 | 업데이트 | 2021.02.24 |
 
-API 정보 : [네오플 던전앤파이터 API Docs](https:developers.neople.co.kr/contents/apiDocs, "네오플 던전앤파이터 API Docs")
+API 정보 : [네오플 던전앤파이터 API Docs]("https:developers.neople.co.kr/contents/apiDocs", "네오플 던전앤파이터 API Docs")
 
 ## 필수사양
 | PHP | 7.2 이상 |
 | :-----------: | -------------------: |
 | Composer | 필수 |
 
+## 라이센스 및 제작자
+| License | MIT |
+| :-----------: | -------------------: |
+| 제작자 | KilotonCoAPI 정보 : [Github]("https://github/KilotonCo", "KilotonCo Github") |
+
+## 설치
+```
+composer require kilotonco/dncore
+```
 
 ## 사용법
+네오플에서 <b>ApiKey</b>를 발급받아서 입력. 
+```
+$dncore = new DNCore("apikey");
+```
 
 형식 : DNCore API 명령 -> 전달할 파라미터(값) -> 전달할 파라미터(값) ...<br>
 파라미터를 작성이 끝나면 <b>datacheck()</b>를 사용해 API 사이트에서 전달하여 나온 Data 를 <b>getJsonData()</b>로 json으로 리턴.
