@@ -8,7 +8,7 @@
 | 버전 | 1.0.1 |
 | 업데이트 | 2021.02.24 |
 
-API 정보 : [네오플 던전앤파이터 API Docs](https:developers.neople.co.kr/contents/apiDocs, "네오플 던전앤파이터 API Docs")
+API 정보 : [네오플 던전앤파이터 API Docs](https:developers.neople.co.kr/contents/apiDocs "네오플 던전앤파이터 API Docs")
 
 ## 필수사양
 | PHP | 7.2 이상 |
@@ -18,7 +18,7 @@ API 정보 : [네오플 던전앤파이터 API Docs](https:developers.neople.co.
 ## 라이센스 및 제작자
 | License | MIT |
 | :-----------: | -------------------: |
-| 제작자 | KilotonCo / [Github](https://github/KilotonCo, "KilotonCo Github") |
+| 제작자 | KilotonCo / [Github](https://github/KilotonCo "KilotonCo Github") |
 
 ## 설치
 ```
