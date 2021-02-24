@@ -18,7 +18,7 @@ API 정보 : [네오플 던전앤파이터 API Docs](https:developers.neople.co.
 ## 라이센스 및 제작자
 | License | MIT |
 | :-----------: | -------------------: |
-| 제작자 | KilotonCo / [Github](https://github/KilotonCo "KilotonCo Github") |
+| 제작자 | KilotonCo / [Github](https://github.com/KilotonCo "KilotonCo Github") |
 
 ## 설치
 ```
