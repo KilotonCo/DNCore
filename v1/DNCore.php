@@ -137,27 +137,27 @@ class DNCore{
     }
 
     // 18. 아바타 마켓 상품 검색 [완료]
-    public function ttx1() : DNCore_API_avatar_market_sale_Class{
+    public function avatar_market_sale() : DNCore_API_avatar_market_sale_Class{
         return new DNCore_API_avatar_market_sale_Class($this->apiKey);
     }
 
     // 19. 아바타 마켓 상품 조회 [완료]
-    public function ttx2() : DNCore_API_avatar_market_sale_goodsNo_Class{
+    public function avatar_market_sale_goodsNo() : DNCore_API_avatar_market_sale_goodsNo_Class{
         return new DNCore_API_avatar_market_sale_goodsNo_Class($this->apiKey);
     }
 
     // 20. 아바타 마켓 상품 시세 검색 [완료]
-    public function ttx3() : DNCore_API_avatar_market_sold_Class{
+    public function avatar_market_sold() : DNCore_API_avatar_market_sold_Class{
         return new DNCore_API_avatar_market_sold_Class($this->apiKey);
     }
 
     // 21. 아바타 마켓 상품 시세 조회 [완료]
-    public function ttx34() : DNCore_API_avatar_market_sold_goodsNo_Class{
+    public function avatar_market_sold_goodsNo() : DNCore_API_avatar_market_sold_goodsNo_Class{
         return new DNCore_API_avatar_market_sold_goodsNo_Class($this->apiKey);
     }
 
     // 22. 아바타 마켓 해시태그 조회 [완료]
-    public function ttx45() : DNCore_API_avatar_market_hashtag_Class{
+    public function avatar_market_hashtag() : DNCore_API_avatar_market_hashtag_Class{
         return new DNCore_API_avatar_market_hashtag_Class($this->apiKey);
     }
 
