@@ -34,7 +34,14 @@ API 정보 : [네오플 던전앤파이터 API Docs](https:developers.neople.co.
 |  | maxLevel() | |
 |  | rarity() | |
 |  |  |  datacheck() | | 
-|  |  |  | getJsonData() |
+|  |  |  | getJsonData()<br> 또는<br> getData() |
+
+#### Data 받기 
+| 명령 | 리턴 타입 |
+| :-----------: | -------------------: |
+| getJsonData() | Json |
+| getData() | array |
+
 
 #### PHP Source
 ``` 
@@ -52,6 +59,25 @@ echo $dncore->item()
     ->dataCheck()
     ->getJsonData();
 ```
+
+#### 결과값 사용법
+['Result'] 에 결과값이 저장되어 있습니다.
+```
+$dncore = new DNCore("apikey");
+$data= $dncore->item()
+
+    ->itemName(urlencode("황금"))
+    ->wordType("full")
+    ->limit(10)
+    
+    ->dataCheck()
+    ->getData();
+
+foreach($data['Result'] as $item => $value){
+    echo $item.":".$value."<br>;
+} 
+```
+
 
 ## DNCore API 명령
 
